@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    list-style: none;
+    gap:16px;
+    padding: 16px;
+}
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: transparent;
+    background-color: rgb(225, 241, 236);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.button:hover,
+.button:active{
+background-color: rgb(142, 142, 226);
+color: white;
+}
